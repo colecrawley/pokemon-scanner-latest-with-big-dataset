@@ -1,0 +1,24 @@
+Overall Accuracy: 97.37%
+MSE: 0.1711
+RMSE: 0.4136
+MAE: 0.0658
+
+Per-Class Accuracy:
+151: 100.00%
+Base: 93.75%
+Fossil: 100.00%
+Jungle: 100.00%
+Wizards Black Star Promos: 87.50%
+
+Precision, Recall, F1-Score per class:
+                           precision    recall  f1-score   support
+
+                      151     1.0000    1.0000    1.0000        32
+                     Base     1.0000    0.9375    0.9677        16
+                   Fossil     0.9091    1.0000    0.9524        10
+                   Jungle     1.0000    1.0000    1.0000        10
+Wizards Black Star Promos     0.8750    0.8750    0.8750         8
+
+                 accuracy                         0.9737        76
+                macro avg     0.9568    0.9625    0.9590        76
+             weighted avg     0.9749    0.9737    0.9738        76
